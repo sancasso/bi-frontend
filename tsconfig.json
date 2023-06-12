@@ -17,7 +17,8 @@
       "@/*": ["./src/*"],
       "@@/*": ["./src/.umi/*"],
       "@@test/*": ["./src/.umi-test/*"]
-    }
+    },
+    "types": ["sockjs-client", "stompjs"]
   },
   "include": ["./**/*.d.ts", "./**/*.ts", "./**/*.tsx"]
 }

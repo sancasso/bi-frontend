@@ -99,6 +99,7 @@ declare namespace API {
   };
 
   type User = {
+    userAvatar: string | undefined;
     id?: number;
     username?: string;
     firstName?: string;
